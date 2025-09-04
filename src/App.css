@@ -1,0 +1,236 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: #f0f4e6;
+}
+.title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.leafContainer {
+  position: relative;  
+  display: inline-block;
+}
+
+.leaf {
+  width: 800px; 
+  height: auto;
+  display: block;
+  transform: rotate(0deg);
+}
+.dishinfo {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: scale(0.8);  
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  width: 300px;
+  height:auto;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out
+}
+#dishinfo.show {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+#dishinfo.hide {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(1);
+}
+.curry, .chips, .banana, .varatti {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0px solid #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.logo1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+/* ginger, lemon, mango */
+
+.curry1 { /* ginger */
+  height:auto;
+  width:40px;
+  top: 37%;  
+  left:12%;
+}
+
+.curry2 { /* lemon */
+  height:auto;
+  width:47px;
+  top: 34%;
+  left: 18%;
+}
+
+.curry3 { /* mango */
+  height:auto;
+  width:47px;
+  top: 30%;
+  left: 25%;
+}
+.curry4  { /* white kich */
+  height:auto;
+  width:47px;
+  top: 27%;
+  left: 32%;
+}
+.chips  { 
+  height:auto;
+  width:55px;
+  top: 57%;
+  left: 13%;
+}
+.banana {
+  height:auto;
+  width:65px;
+  top: 69%;
+  left: 14%;
+  transform: rotate(34deg);
+}
+.varatti {
+  height:auto;
+  width:44px;
+  top: 64%;
+  left: 19%;
+}
+.curry5 {
+  height:auto;
+  width:43px;
+  top: 24%;
+  left: 39.5%;
+}
+.curry6 {
+  height:auto;
+  width:43px;
+  top: 21.5%;
+  left: 46.4%;
+}
+.rice {
+  height:auto;
+  width:150px;
+  top: 57%;
+  left: 46%;
+}
+.curry7 {
+  height:auto;
+  width: 43px;
+  top: 18.5%;
+  left: 54.2%;
+}
+.curry8 {
+  height:auto;
+  width: 74px;
+  top: 14.5%;
+  left: 61.2%;
+}
+.curry9 {
+  height:auto;
+  width: 79px;
+  top: 12.4%;
+  left: 72.2%;
+}
+.curry10 {
+  height:auto;
+  width: 79px;
+  top: 28.4%;
+  left: 76.2%;
+}
+.curry11 {
+  height:auto;
+  width: 79px;
+  top: 56.4%;
+  left: 36.2%;
+}
+.curry12 {
+  height:auto;
+  width: 76px;
+  top: 70.1%;
+  left: 36.2%;
+}
+.pap {
+  height:auto;
+  width: 120px;
+  top: 64.1%;
+  left: 54.2%;
+  transform: rotate(20deg);
+}
+.curry13 {
+  height:auto;
+  width: 76px;
+  top: 54.1%;
+  left: 64.2%;
+}
+.curry14 {
+  height:auto;
+  width: 73px;
+  top: 28.1%;
+  left: 64.2%;
+}
+.payasam {
+  height:auto;
+  width: 73px;
+  top: 30.1%;
+  left: 53.2%;
+}
+.boli {
+  height:auto;
+  width: 73px;
+  top: 64.1%;
+  left: 26.2%;
+}
+.PP {
+  height:auto;
+  width: 78px;
+  top: 34.1%;
+  left: 42.4%;
+}
+.curry15{
+  height:auto;
+  width: 63px;
+  top: 37.1%;
+  left: 33.4%;
+}
+.logo {
+  height:auto;
+  width: 78px;
+  top: 62.1%;
+  left: 74.4%;
+  transform: perspective(600px) rotateX(30deg) translateY(50px);
+}
+.ondago {
+  height:auto;
+  width: 78px;
+  top: 36.1%;
+  left: 19.4%;
+  transform: perspective(600px) rotateX(30deg) translateY(50px);  
+  opacity: 0.4;
+}
+.SDINFO {
+  text-align: center;
+  width:400px;
+
+}
