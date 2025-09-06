@@ -27,8 +27,6 @@ import logo from "./logo.png";
 import curry15 from "./puli.png";
 import ondago from "./ondagoo.png";
 
-
-import { useState } from "react";
 import { useEffect } from "react";
 
 function inji_in() {
